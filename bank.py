@@ -5,7 +5,7 @@ print ("Thank you.  Calculating...")
 total = amount1 + amount2
 
 #parse cent amount to euro and cent
-euroTotal = ((int (total))/100)
+euroTotal = ((total)/100)
 
 #specify decimal places for euroTotal
 #https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/#:~:text=In%20Python%2C%20there%20are%20various,point%20number%20is%20rounded%20up.
