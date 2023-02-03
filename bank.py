@@ -1,4 +1,4 @@
-# this program will read two integer amounts and add them together to create an amount in currency format.
+# this program reads two integer amounts and add them together to create an amount in currency format.
 amount1 = int(input ("Enter Amount 1 (in cents): "))
 amount2 = int(input ("Enter Amount 1 (in cents): "))
 print ("Thank you.  Calculating...")
