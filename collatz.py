@@ -31,6 +31,8 @@ print (f"Integer is {x}")
     #   print ("True")
     
     #   if x.isdigit ():
+
+# while loop to iterate through calculations until 1 is reached
 while x > 1:
     x = calculate (x)
     print (f"Step {step}: {x}")
@@ -38,7 +40,7 @@ while x > 1:
     
 print (f"The value of our integer is now {x}")
 
-# else:
-    # print (f"Please enter an integer.  {x} is not an integer")
+#   else:
+    #   print (f"Please enter an integer.  {x} is not an integer")
 
 
