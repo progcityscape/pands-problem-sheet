@@ -20,7 +20,8 @@
 
 # N is the number to find the square root of 
 # X changes with each iteration
-def sqrt (N,X):
+# changed function name to reflect lecturer feedback (was originally sqrt)
+def square_root (N,X):
     
     root = 0.5 * (X+(N/X))
     print (root)
@@ -36,7 +37,7 @@ precision = 10 ** (-10)
 while (abs(N-(X*X))>precision):
     
     # apply function to user input
-    squareroot_approx = sqrt (N,X)
+    squareroot_approx = square_root (N,X)
     print (squareroot_approx)
     X = squareroot_approx
     

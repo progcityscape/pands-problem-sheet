@@ -4,6 +4,7 @@
 [https://github.com/progcityscape/pands-problem-sheet/blob/b876971a546f8a29441ff6ccc7d891c0320956d2/helloworld.py] outputs the phrase 'Hello World'. <br>
 ### Week 2
 [https://github.com/progcityscape/pands-problem-sheet/blob/main/bank.py] outputs the total of two cent amounts in Euros and Cents<br>
+Consulting the following [https://docs.python.org/3/library/decimal.html?highlight=decimal#module-decimal] to try to solve without using float following lecturer feedback. <br>
 ### Week 3
 [https://github.com/progcityscape/pands-problem-sheet/blob/main/accounts1.1.py] tackles the main part of the week 3 task, outputting 4 wildcards and a 6-digit account number, based on a 10-digit input.<br>
 [https://github.com/progcityscape/pands-problem-sheet/blob/main/accounts1.2_.py] continues the task and extends to include account numbers of any length. <br>
