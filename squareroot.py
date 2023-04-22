@@ -17,33 +17,26 @@
 # the above link shows how the process can be envisioned and suggests the following for Newton's algorithm
 # x_(n+1) = x_n - f(x_n) / f’(x_n)
 
-
 # N is the number to find the square root of 
 # X changes with each iteration
 # changed function name to reflect lecturer feedback (was originally sqrt)
+
 def square_root (N,X):
-    
     root = 0.5 * (X+(N/X))
     print (root)
     return root
 
 # get a positive float from user
-
 N = float(input ("Please enter a positive number: "))
 X = N
-
 # suggest precision to end loop
 precision = 10 ** (-10)
 while (abs(N-(X*X))>precision):
-    
     # apply function to user input
     squareroot_approx = square_root (N,X)
     print (squareroot_approx)
     X = squareroot_approx
-    
-    
 print (f"The square root of {N} is approximately {squareroot_approx}")
-
 # program is printing each iteration twice??
 
 
